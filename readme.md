@@ -1,4 +1,4 @@
-### Whet?
+### What?
 open interpreterを簡単にdocker環境で試せます。
 open interpreterは対話中にpip installを求められるケースが多いのでdocker内での実行が便利です。
 pythonコードをGTPに提案&実行してもらいながらGTPと対話できます。
