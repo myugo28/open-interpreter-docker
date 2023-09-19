@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  python-gpt:
+    build: ./python
+    volumes:
+      - ./python/code:/code
+    image: gpt-open-interpreter
+    container_name: gpt-open-interpreter
+    environment:
+      - OPENAI_API_KEY=sk-xxxx-your-open-ai-api-key
+    tty: true
